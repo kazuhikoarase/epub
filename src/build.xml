@@ -1,0 +1,12 @@
+<project basedir="../" default="dist">
+  <property name="src" location="src" />
+  <property name="dist" location="dist" />
+  <target name="dist">
+    <mkdir dir="${dist}"/>
+    <zip destfile="${dist}/book.epub">
+      <zipfileset dir="${src}/epub">
+        <include name="**/*" />
+      </zipfileset>
+    </zip>
+  </target>
+</project>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<package version="2.0" xmlns="http://www.idpf.org/2007/opf" xmlns:dc="http://purl.org/dc/elements/1.1/" unique-identifier="bookid">
+  <metadata>
+    <dc:title></dc:title>
+    <dc:description></dc:description>
+    <dc:creator></dc:creator>
+    <dc:publisher></dc:publisher>
+    <dc:date></dc:date>
+    <dc:language>en-US</dc:language>
+    <dc:identifier id="bookid"></dc:identifier>
+  </metadata>
+  <manifest>
+    <item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml" />
+    <item id="css" href="assets/style.css" media-type="text/css" />
+    <item id="chapter1" href="chapter1.xhtml" media-type="application/xhtml+xml" />
+  </manifest>
+  <spine toc="ncx">
+	<itemref idref="chapter1" />
+  </spine>
+</package>
